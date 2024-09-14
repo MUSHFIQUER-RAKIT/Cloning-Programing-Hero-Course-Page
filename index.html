@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM Practice</title>
+
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">JavaScript Dom</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+        </ul>
+        <span class="navbar-text">
+          Programing Hero's Course Model
+        </span>
+      </div>
+    </div>
+  </nav>
+
+  <section class="main">
+    <div class="cstmContainer d-lg-flex">
+
+      <div class="col col-lg-8 milestoneDetails">
+        <img class="img-fluid milestoneImage" src="images/kv.png" />
+        <div class="imgDeatail py-4">
+          <h2 class="title">Module title here</h2>
+          <p class="details">Module description here</p>
+        </div>
+      </div>
+
+      <div class="col col-lg-4">
+        <div class="milestones float-end bg-black rounded w-100 p-4">
+          <div class="milestone border-bottom">
+            <div class="d-flex p-2">
+              <div class="checkbox">
+                <input class="form-check-input p-lg-3" type="checkbox">
+              </div>
+              <p class="ms-3 my-2">Milestone 1 name
+                <span><i class="fas fa-chevron-down"></i></span>
+              </p>
+            </div>
+            <div class="hidden_panel">
+              <div class="module ms-5 ps-2">
+                <p>Module Name</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="doneList">
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+
+  <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+
+</html>
